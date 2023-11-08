@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(6, 6, 6);
+  color: bisque;
+  font-family: Cambria;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.main-input-container {
+  display: flex;
+  justify-content: space-around;
+}
+.input-title {
+  border-radius: 8px;
+}
+.input-img {
+  border-radius: 8px;
+}
+.input-description {
+  border-radius: 8px;
+}
+#image {
+  height: 400px;
+  width: 400px;
+}
+.listContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+.editInputs {
+  display: flex;
+}
+.editTitle {
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.editImg {
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.editDescription {
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.saveButton {
+  border-radius: 8px;
+}
+.deleteButton {
+  margin-bottom: 10px;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
